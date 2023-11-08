@@ -1,0 +1,49 @@
+<?xml
+version="1.0" encoding="UTF-8"?>
+<VAST version="4.1">
+    <Ad id="6b36c319-4ed3-4007-9265-24314dea255a">
+        <InLine>
+            <AdSystem><![CDATA[Ogury Admin Adserver]]></AdSystem>
+            <Extensions></Extensions>
+            <Impression><![CDATA[https://www.ogury.com/imp]]></Impression>
+            <Impression><![CDATA[https://unified.adsafeprotected.com/pixel.png?eyJ0eXBlIjoiU0VDT05EQVJZX0lNUFJFU1NJT04iLCJwdWJsaXNoZXJVdWlkIjoiYTVkYjAyYjAtMmI3OC00OWEzLTg0ZmYtMDA1NTlkNjk3Y2I5Iiwic2l0ZVV1aWQiOiJhZmRkZWY1ZC1jMjA0LTQwYTktYjRmYi05NjVhMTQ1ZDA2OTYiLCJiaWRSZXF1ZXN0Ijp7InNpdGUiOnsicGFnZSI6Imh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vIn19LCJjdXN0b20iOnsiY3VzdG9tMSI6IjkyODA0NiIsImN1c3RvbTIiOiI0LjEiLCJjdXN0b20zIjoiNC4xIiwiY3VzdG9tNyI6IiIsImN1c3RvbTgiOiIiLCJkYXYzX2RldmljZSI6IkRFVklDRVRZUEVfVU5LTk9XTiIsImRhdjNfb3V0Y29tZSI6Ik9VVENPTUVfQSIsImRhdjNfdWEiOiIiLCJtb25pdG9yaW5nIjoidHJ1ZSIsInJlZ2lvbiI6ImllIiwieGFwcGIiOiJOVUxMIiwieHNpZCI6IjUwOWJlODViLWY0NmQtNDAwOS1hZGNhLWUzOGQ3ZmNkZTFkMyJ9LCJ0aW1lc3RhbXAiOiIwMDAxLTAxLTAxVDAwOjAwOjAwWiIsImhlYWRlcnMiOnsiaGVhZGVyMTAiOiJbY2FtcGFpZ25pZF0iLCJoZWFkZXIxMSI6Ik9ndXJ5IEFkbWluIEFkc2VydmVyIiwiaGVhZGVyMTIiOiJtZWRpYXMuZGV2Yy5jbG91ZC5vZ3VyeS5pbyIsImhlYWRlcjMiOiJbT01JRFBBUlRORVJdIiwiaGVhZGVyNCI6IltBUElGUkFNRVdPUktdIiwiaGVhZGVyOCI6Imlhc28iLCJoZWFkZXI5IjoiIn0sImNiIjoiMTY5OTQzNDUwODQwMzU1Nzc4NCIsImFkRHVyYXRpb24iOi0xLCJpYXNTaW5nbGV0YWciOnRydWUsImlhc1NpbmdsZXRhZ091dGNvbWUiOiJPVVRDT01FX0EifQ==&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_278}&gdpr_pd=${GDPR_PD}&vfwctx=${VFWCTX}&advEntityId=&pubEntityId=&iris_id=[IRIS_ID]&ss_iris_id={{IRIS_ID}}&fw_iris_id=#{request.keyValue("_fw_content_id")}]]></Impression>
+            <Impression><![CDATA[https://pixel.adsafeprotected.com/mon?anId=928046&campId=[creative_size]&pubId=[advertiser_name]&placementId=[campaignid]&chanId=[ad_unit_type]&ias_xpc=iaso&xmtp=v&xsId=509be85b-f46d-4009-adca-e38d7fcde1d3&&omidPartner=[OMIDPARTNER]&apiFrameworks=[APIFRAMEWORK]&pubCreative=[creative_name]&pubOrder=[io_id]&custom=[app_bundle]&custom2=[advert_environment_type]&custom3=[device_os]&ias_xappb=NULL&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_278}&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_278}&gdpr_pd=${GDPR_PD}&vfwctx=${VFWCTX}]]></Impression>
+            <AdServingId><![CDATA[Ogury-6b36c319-4ed3-4007-9265-24314dea255a]]></AdServingId>
+            <AdTitle><![CDATA[TEST GW 321]]></AdTitle>
+            <AdVerifications>
+                <Verification vendor="IAS">
+                    <JavaScriptResource apiFramework="omid" browserOptional="true"><![CDATA[https://pixel.adsafeprotected.com/jload?anId=928046&campId=[creative_size]&pubId=[advertiser_name]&placementId=[campaignid]&chanId=[ad_unit_type]&ias_xpc=iaso&xmtp=v&xsId=509be85b-f46d-4009-adca-e38d7fcde1d3&omidPartner=[OMIDPARTNER]&apiFrameworks=[APIFRAMEWORK]&pubCreative=[creative_name]&pubOrder=[io_id]&custom=[app_bundle]&custom2=[advert_environment_type]&custom3=[device_os]&ias_xappb=NULL&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_278}]]></JavaScriptResource>
+                </Verification>
+            </AdVerifications>
+            <Creatives>
+                <Creative>
+                    <Linear>
+                        <TrackingEvents>
+                            <Tracking event="start"><![CDATA[https://www.ogury.com/s]]></Tracking>
+                            <Tracking event="firstQuartile"><![CDATA[https://www.ogury.com/f]]></Tracking>
+                            <Tracking event="midpoint"><![CDATA[https://www.ogury.com/mid]]></Tracking>
+                            <Tracking event="thirdQuartile"><![CDATA[https://www.ogury.com/t]]></Tracking>
+                            <Tracking event="complete"><![CDATA[https://www.ogury.com/c]]></Tracking>
+                        </TrackingEvents>
+                        <AdParameters><![CDATA[{"mediaFiles":[{"delivery":"progressive","type":"video/mp4","bitrate":720,"width":202,"height":360,"uri":"https://medias.devc.cloud.ogury.io/medias/videos/37557103-baf5-4863-bc62-91b873322cc4.mp4-transcoded/video_360p.mp4"},{"delivery":"progressive","type":"video/mp4","bitrate":1200,"width":270,"height":480,"uri":"https://medias.devc.cloud.ogury.io/medias/videos/37557103-baf5-4863-bc62-91b873322cc4.mp4-transcoded/video_480p.mp4"},{"delivery":"progressive","type":"video/mp4","bitrate":2400,"width":404,"height":720,"uri":"https://medias.devc.cloud.ogury.io/medias/videos/37557103-baf5-4863-bc62-91b873322cc4.mp4-transcoded/video_720p.mp4"},{"delivery":"progressive","type":"video/mp4","bitrate":5400,"width":608,"height":1080,"uri":"https://medias.devc.cloud.ogury.io/medias/videos/37557103-baf5-4863-bc62-91b873322cc4.mp4-transcoded/video_1080p.mp4"}],"clickThroughUrl":"","clickTrackingUrl":null,"duration":6,"wrapperId":"zvkvfy2j","customDimensions":{"190":"CM","191":"928046","193":"[creative_size]","194":"[advertiser_name]","195":"[campaignid]","196":"[ad_unit_type]","182":"https%3A%2F%2Fstatic.adsafeprotected.com%2Fias%2Fv1%2Fvpaid.2023.05.19-19.29-6622210.js","188":"lon1","189":"droplet"},"trackingHost":"unified.adsafeprotected.com","plugins":[{"id":"ias","config":{"apiframeworks":"[APIFRAMEWORK]","custom":"[app_bundle]","custom2":"[advert_environment_type]","custom3":"[device_os]","gdpr":"${GDPR}","gdpr_consent":"${GDPR_CONSENT_278}","ias_xappb":"NULL","isMonitoring":"true","partner":"iaso","pubCreative":"[creative_name]","pubOrder":"[io_id]","xmapp":0,"xmtp":"v","xsId":"509be85b-f46d-4009-adca-e38d7fcde1d3"}},{"id":"ias.cm","config":{"anId":"928046","campId":"[creative_size]","chanId":"[ad_unit_type]","placementId":"[campaignid]","pubId":"[advertiser_name]"}},{"id":"play","config":{"acceptMedia":"^video/"}},{"id":"skip","config":{"acceptMedia":"^video/"}}],"blockedAdTracking":"","ignoreVpaid":false,"ias_singletag":true,"ias_singletag_outcome":1,"ppath":"https://unified.adsafeprotected.com"}
+]]></AdParameters>
+                        <Duration>00:00:06</Duration>
+                        <MediaFiles>
+                            <MediaFile delivery="progressive" type="application/javascript" width="608" height="1080" apiFramework="VPAID"><![CDATA[https://static.adsafeprotected.com/ias/v1/vpaid.2023.05.19-19.29-6622210.js]]></MediaFile>
+                            <MediaFile delivery="progressive" type="video/mp4" width="202" height="360" bitrate="720"><![CDATA[https://medias.devc.cloud.ogury.io/medias/videos/37557103-baf5-4863-bc62-91b873322cc4.mp4-transcoded/video_360p.mp4]]></MediaFile>
+                            <MediaFile delivery="progressive" type="video/mp4" width="270" height="480" bitrate="1200"><![CDATA[https://medias.devc.cloud.ogury.io/medias/videos/37557103-baf5-4863-bc62-91b873322cc4.mp4-transcoded/video_480p.mp4]]></MediaFile>
+                            <MediaFile delivery="progressive" type="video/mp4" width="404" height="720" bitrate="2400"><![CDATA[https://medias.devc.cloud.ogury.io/medias/videos/37557103-baf5-4863-bc62-91b873322cc4.mp4-transcoded/video_720p.mp4]]></MediaFile>
+                            <MediaFile delivery="progressive" type="video/mp4" width="608" height="1080" bitrate="5400"><![CDATA[https://medias.devc.cloud.ogury.io/medias/videos/37557103-baf5-4863-bc62-91b873322cc4.mp4-transcoded/video_1080p.mp4]]></MediaFile>
+                        </MediaFiles>
+                        <VideoClicks>
+                            <ClickTracking><![CDATA[https://unified.adsafeprotected.com/pixel.png?eyJ0eXBlIjoiQ0xJQ0tfVFJBQ0tJTkciLCJwdWJsaXNoZXJVdWlkIjoiYTVkYjAyYjAtMmI3OC00OWEzLTg0ZmYtMDA1NTlkNjk3Y2I5Iiwic2l0ZVV1aWQiOiJhZmRkZWY1ZC1jMjA0LTQwYTktYjRmYi05NjVhMTQ1ZDA2OTYiLCJiaWRSZXF1ZXN0Ijp7InNpdGUiOnsicGFnZSI6Imh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vIn19LCJjdXN0b20iOnsiY3VzdG9tMSI6IjkyODA0NiIsImN1c3RvbTIiOiI0LjEiLCJjdXN0b20zIjoiNC4xIiwiY3VzdG9tNyI6IiIsImN1c3RvbTgiOiIiLCJkYXYzX2RldmljZSI6IkRFVklDRVRZUEVfVU5LTk9XTiIsImRhdjNfb3V0Y29tZSI6Ik9VVENPTUVfQSIsImRhdjNfdWEiOiIiLCJlbmNvZGVkIjoiZmFsc2UiLCJtb25pdG9yaW5nIjoidHJ1ZSIsInJlZ2lvbiI6ImllIiwidnBhaWQiOiJmYWxzZSIsInhhcHBiIjoiTlVMTCIsInhzaWQiOiI1MDliZTg1Yi1mNDZkLTQwMDktYWRjYS1lMzhkN2ZjZGUxZDMifSwidGltZXN0YW1wIjoiMDAwMS0wMS0wMVQwMDowMDowMFoiLCJoZWFkZXJzIjp7ImhlYWRlcjEwIjoiW2NhbXBhaWduaWRdIiwiaGVhZGVyMTEiOiJPZ3VyeSBBZG1pbiBBZHNlcnZlciIsImhlYWRlcjEyIjoibWVkaWFzLmRldmMuY2xvdWQub2d1cnkuaW8iLCJoZWFkZXIzIjoiW09NSURQQVJUTkVSXSIsImhlYWRlcjQiOiJbQVBJRlJBTUVXT1JLXSIsImhlYWRlcjgiOiJpYXNvIiwiaGVhZGVyOSI6IiJ9LCJjYiI6IjE2OTk0MzQ1MDg0MDMwNzg1ODgiLCJhZER1cmF0aW9uIjoxNzA1MDMyNzA0LCJpYXNTaW5nbGV0YWciOnRydWUsImlhc1NpbmdsZXRhZ091dGNvbWUiOiJPVVRDT01FX0EifQ==&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_278}&gdpr_pd=${GDPR_PD}&vfwctx=${VFWCTX}&advEntityId=&pubEntityId=]]></ClickTracking>
+                            <ClickThrough><![CDATA[https://www.ogury-2.com]]></ClickThrough>
+                        </VideoClicks>
+                    </Linear>
+                    <UniversalAdId idRegistry="unknown"><![CDATA[unknown]]></UniversalAdId>
+                </Creative>
+            </Creatives>
+            <Description><![CDATA[TEST GW 321]]></Description>
+        </InLine>
+    </Ad>
+</VAST>
